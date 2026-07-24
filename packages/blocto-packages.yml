@@ -1,0 +1,46 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/blocto + npm registry
+packages:
+  - language: javascript
+    registry: npm
+    name: "@blocto/sdk"
+    url: https://www.npmjs.com/package/@blocto/sdk
+    install: npm install @blocto/sdk
+    version: 0.10.4
+    repo: https://github.com/blocto/blocto-sdk
+    description: >-
+      Blocto wallet SDK to integrate with Blocto wallet across Arbitrum, Optimism,
+      Aptos, Polygon, BNB Chain, Avalanche, Ethereum, Flow, Solana and more (repo archived).
+    official: true
+    deprecated: true
+  - language: javascript
+    registry: npm
+    name: "@blocto/fcl"
+    url: https://www.npmjs.com/package/@blocto/fcl
+    install: npm install @blocto/fcl
+    version: 1.13.1
+    repo: https://github.com/blocto/fcl-js
+    description: Blocto fork of the Flow Client Library (FCL) for building Flow dApps.
+    official: true
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/blocto/aptos-go-sdk
+    url: https://github.com/blocto/aptos-go-sdk
+    install: go get github.com/blocto/aptos-go-sdk
+    description: Aptos Golang SDK maintained by Blocto.
+    official: true
+  - language: swift
+    registry: swift-package-manager
+    name: flow-swift-sdk
+    url: https://github.com/blocto/flow-swift-sdk
+    install: "Swift Package Manager: https://github.com/blocto/flow-swift-sdk"
+    description: Swift SDK for the Flow blockchain, maintained by Blocto.
+    official: true
+  - language: rust
+    registry: github
+    name: solana-contract-wallet
+    url: https://github.com/blocto/solana-contract-wallet
+    install: "git clone https://github.com/blocto/solana-contract-wallet"
+    description: Solana contract wallet used in the Blocto wallet and SDK.
+    official: true
